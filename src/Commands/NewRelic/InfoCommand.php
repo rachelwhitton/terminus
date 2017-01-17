@@ -31,7 +31,7 @@ class InfoCommand extends TerminusCommand implements SiteAwareInterface
      *
      * @param string $site_id Site name
      *
-     * @usage terminus new-relic:info <site>
+     * @usage <site>
      *     Displays New Relic configuration for <site>.
      */
     public function info($site_id)

@@ -30,7 +30,7 @@ class ListCommand extends TerminusCommand implements SiteAwareInterface
      *
      * @param string $site_name Site name
      *
-     * @usage terminus multidev:list <site>
+     * @usage <site>
      *     Lists <site>'s Multidev environments.
      */
     public function listMultidevs($site_name)

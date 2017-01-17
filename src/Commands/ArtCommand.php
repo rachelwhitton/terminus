@@ -27,9 +27,9 @@ class ArtCommand extends TerminusCommand implements ContainerAwareInterface
      *
      * @param string $name Artwork name
      *
-     * @usage terminus art
+     * @usage
      *     Displays the list of available artwork.
-     * @usage terminus art <artwork>
+     * @usage <artwork>
      *     Displays the <artwork> artwork.
      */
     public function art($name = 'random')

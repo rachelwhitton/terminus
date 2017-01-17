@@ -25,7 +25,7 @@ class ListCommand extends TerminusCommand
      *     framework: Framework
      * @return RowsOfFields
      *
-     * @usage terminus upstream:list
+     * @usage 
      *     Displays the list of upstreams accessible to the currently logged-in user.
      */
     public function listUpstreams()

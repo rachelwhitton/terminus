@@ -30,7 +30,7 @@ class InfoCommand extends TerminusCommand
      *     description: Description
      * @return PropertyList
      *
-     * @usage terminus upstream:info <upstream>
+     * @usage <upstream>
      *     Displays information about the <upstream> upstream.
      */
     public function info($upstream)

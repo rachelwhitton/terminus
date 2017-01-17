@@ -25,9 +25,9 @@ class MergeToDevCommand extends TerminusCommand implements SiteAwareInterface
      * @param string $site_env Site & Multidev environment in the form `site-name.env`
      * @option boolean $updatedb Run update.php afterwards
      *
-     * @usage terminus multidev:merge-to-dev <site>.<multidev>
+     * @usage <site>.<multidev>
      *     Merges code commits from <site>'s <multidev> environment into the Dev environment.
-     * @usage terminus multidev:merge-to-dev <site>.<multidev> --updatedb
+     * @usage <site>.<multidev> --updatedb
      *     Merges code commits from <site>'s <multidev> environment into the Dev environment and runs update.php afterwards.
      */
     public function mergeToDev($site_env, $options = ['updatedb' => false,])

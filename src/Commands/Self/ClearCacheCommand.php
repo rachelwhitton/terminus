@@ -20,7 +20,7 @@ class ClearCacheCommand extends TerminusCommand implements ContainerAwareInterfa
      * @command self:clear-cache
      * @aliases self:cc
      *
-     * @usage terminus self:clear-cache
+     * @usage
      *     Clears the local Terminus session cache and all locally saved machine tokens.
      */
     public function clearCache()

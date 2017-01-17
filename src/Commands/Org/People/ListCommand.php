@@ -29,7 +29,7 @@ class ListCommand extends TerminusCommand
      *
      * @param string $organization Organization name or ID
      *
-     * @usage terminus org:people:list <organization>
+     * @usage <organization>
      *     Displays the list of users associated with <organization>.
      */
     public function listPeople($organization)
